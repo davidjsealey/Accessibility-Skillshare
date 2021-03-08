@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Marlon Brando Info Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrap">
+            <img src="./marlon-brando-logo.jpg" alt="Marlon Brando" class="header-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="wrap wrap-column wrap-centre">
+                <header>
+                    <h1>Welcome to the Marlon Brando Info Page!</h1>
+                </header>
+                <img src="./marlon-brando-portrait.jpg" alt="A black and white portrait of a young Marlon Brando" class="intro-image">
+                <p class="intro-text">Marlon Brando is considered one of the best actors of all time. He has won 2 Oscars in his esteemed career for On The Waterfront (1954) and for The Godfather (1972). </p>
+            </div>
+        </section>
+        <section class="find-out-more">
+            <div class="wrap wrap-column">
+                <h2>Find Out More</h2>
+                <p>To read more about Marlon Brando on his IMDB page, please click on the below link.</p>
+                <a 
+                    href="https://www.imdb.com/name/nm0000008/?ref_=nmawd_awd_nm" 
+                    class="text-anchor"
+                    target="_blank"
+                    aria-label="Read more about Marlon Brando on his IMDB page">
+                    Read More (Opens in a new window)
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="wrap wrap-column">
+                <h3>Contact Me</h3>
+                <p>If you'd like to chat to me directly about Marlon Brando, please fill in the below form.</p>
+                <form action="">
+                    <p>All fields marked with * are required</p>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" name="" id="name" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Nature of enquiry</legend>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="his-films">
+                                <label for="his-films">His films</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="his-life">
+                                <label for="his-life">His life</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="other">
+                                <label for="other">Other</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" rows="8" placeholder="Message here"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <small>&copy; Copyright David Sealey 2021</small>
+        </div>
+    </footer>
+</body>
+</html>
